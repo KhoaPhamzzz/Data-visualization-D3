@@ -1,0 +1,62 @@
+#chart {
+    margin: 0 auto;
+  }
+
+  .legend {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line */
+    margin-top: 10px;
+  }
+
+  svg {
+    background-color: white;
+  }
+  .line {
+    fill: none;
+    stroke-width: 2px;
+  }
+  .area-red {
+    fill: rgb(202, 175, 123);
+  }
+  .area-blue {
+    fill: lightgrey;
+  }
+  .dot-red {
+    fill: white;
+    stroke: orange;
+  }
+  .dot-blue {
+    fill: white;
+    stroke: grey;
+  }
+  .axis-label {
+    font-size: 25px;
+  }
+  .tooltip {
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    font-size: 12px;
+    pointer-events: none;
+  }
+  .legend {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .legend-color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%; /* Add border-radius property for circle shape */
+  }
