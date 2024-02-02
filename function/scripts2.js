@@ -1,6 +1,6 @@
 // Set the width and height of the SVG element
-var w = 1500;
-var h = 1000;
+var w = 900;
+var h = 800;
 var padding = 80;
 var marginLeft = 150; // Increase the left margin
 
@@ -87,7 +87,7 @@ d3.csv("CSV/ethnicstate.csv").then(function(data) {
       .attr("text-anchor", "middle")
       .attr("font-weight", "bold")
       .style("fill", "black")
-      .style("font-size", "15px")
+      .style("font-size", "9px")
       .text(d.COUNTRY + ": " + d.MIGRANT); // Display both COUNTRY and MIGRANT values
   })
   .on("mouseout", function(event, d) {
